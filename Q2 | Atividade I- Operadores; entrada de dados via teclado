@@ -1,0 +1,11 @@
+package q2;
+import java.util.Scanner;
+public class Q2 {
+    public static void main(String[] args) {
+    Scanner retorno = new Scanner(System.in);
+    int idade;    
+    System.out.println("Informe a sua idade: ");
+    idade = retorno.nextInt();
+    idade = idade + 10;
+    System.out.println("Daqui a 10 anos a sua idade será: " + idade);
+    }}
