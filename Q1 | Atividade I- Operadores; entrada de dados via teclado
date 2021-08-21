@@ -1,0 +1,13 @@
+package q1;
+import java.util.Scanner;
+public class Q1 {
+    public static void main(String[] args) {
+     Scanner retorno = new Scanner(System.in);        
+        System.out.println("Informe seu nome: ");
+        String nome= retorno.next(); 
+        System.out.println("Informe a sua idade:  ");
+        int idade= retorno.nextInt();
+        System.out.println("Informe a sua matrícula: ");
+        int matricula = retorno.nextInt();
+        System.out.println("Bem vindo! Sr(a) "+ nome +" | idade:"+ idade +" | matrícula: "+ matricula);
+         }}
